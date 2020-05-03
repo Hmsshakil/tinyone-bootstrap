@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+h1,h3,h4,h5,h6,h2,p,span,a{
+    font-family: 'Fondamento', cursive;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color:#FCDA00;
+}
+.navbar{
+    background-color:transparent!important;
+    box-shadow: none;
+}
+.icon{
+    font-size:25px;
+    margin-left:0;
+}
+.content-text{
+    padding-top:150px;
+}
+.content-image{
+padding-top: 80px;    
+    width: 100%;
+    text-align: end;
+}
+.content-image img{
+border-radius:15px;
+}
+.carousel-indicators li{
+    background-color:black;
+}
+.row{
+    padding-bottom:100px!important;
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:389.99px){
+
+}
+@media (min-width: 390px) and (max-width: 479.99px){
+
+}
+
+@media (min-width: 480px) and (max-width: 575.98px){
+     .content-text{
+        padding-top:80px!important
+    }
+    .content-text h1{font-size:2rem}
+    .content-text h5{font-size:1rem}
+    .content-text p{font-size:.9rem}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .content-text{
+        padding-top:70px!important
+    }
+    .content-text h1{font-size:2rem}
+    .content-text h5{font-size:1rem}
+    .content-text p{font-size:.9rem}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { .content-text{
+        padding-top:120px!important
+    } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+
+@media (min-width: 1200px) { }
